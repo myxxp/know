@@ -21,6 +21,7 @@ class Settings(BaseSettings):
     redis_host: str
     redis_port: int = 6379
     redis_password: Optional[str] = None
+    redis_db: int = 0
     
     # API配置 - 非敏感信息使用默认值
     api_host: str = "0.0.0.0"
