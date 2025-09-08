@@ -1,0 +1,75 @@
+[
+  {
+    "label": "create_document_by_file_save_doc_id",
+    "data": {
+      "document": {
+        "id": "a7c985be-706d-4e34-97c2-6fed304c588a",
+        "position": 1,
+        "data_source_type": "upload_file",
+        "data_source_info": {
+          "upload_file_id": "a5f129f5-3950-40b7-b2be-ace8b73e9ceb"
+        },
+        "data_source_detail_dict": {
+          "upload_file": {
+            "id": "a5f129f5-3950-40b7-b2be-ace8b73e9ceb",
+            "name": "test.pdf",
+            "size": 9196401,
+            "extension": "pdf",
+            "mime_type": "application/octet-stream",
+            "created_by": "4884a3cd-bee9-4349-994d-cab050263b0d",
+            "created_at": 1757296050.535814
+          }
+        },
+        "dataset_process_rule_id": "72a43871-c80f-4aea-be3e-c9ffd02d24c4",
+        "name": "test.pdf",
+        "created_from": "api",
+        "created_by": "4884a3cd-bee9-4349-994d-cab050263b0d",
+        "created_at": 1757296051,
+        "tokens": null,
+        "indexing_status": "waiting",
+        "error": null,
+        "enabled": true,
+        "disabled_at": null,
+        "disabled_by": null,
+        "archived": false,
+        "display_status": "queuing",
+        "word_count": null,
+        "hit_count": 0,
+        "doc_form": "text_model",
+        "doc_metadata": [
+          {
+            "id": "built-in",
+            "name": "document_name",
+            "type": "string",
+            "value": "test.pdf"
+          },
+          {
+            "id": "built-in",
+            "name": "uploader",
+            "type": "string",
+            "value": "Dify"
+          },
+          {
+            "id": "built-in",
+            "name": "upload_date",
+            "type": "time",
+            "value": "1757296051.0"
+          },
+          {
+            "id": "built-in",
+            "name": "last_update_date",
+            "type": "time",
+            "value": "1757296051.0"
+          },
+          {
+            "id": "built-in",
+            "name": "source",
+            "type": "string",
+            "value": "file_upload"
+          }
+        ]
+      },
+      "batch": "20250908014730950118"
+    }
+  }
+]
